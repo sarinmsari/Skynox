@@ -1,0 +1,53 @@
+body{
+    width: 100%;
+    background-color: rgba(239, 212, 240, 0.226);
+}
+
+/* main section */
+.main{
+    padding:5% 10%;
+}
+/* main section end */
+
+
+/* subfooter section */
+.sub-footer{
+    padding:3% 10%;
+    background-color: white;
+}
+.subfooteritem{
+    width: 200px;
+    display: flex;
+}
+.subfooter-heading{
+    font-weight: bold;
+}
+/* subfooter section end */
+
+.footer{
+    padding: 30px;
+}
+
+/* Responsiveness */
+@media (min-width: 690px){
+    /* main section */
+    .main{
+        display: flex;
+    }
+    .main-left, .main-right{
+        width: 50%;
+    }
+    .main-right{
+        padding: 5%;
+    }
+
+    /* main section end */
+
+    /* sub footer section */
+    .sub-footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    /* sub footer section end */
+}
